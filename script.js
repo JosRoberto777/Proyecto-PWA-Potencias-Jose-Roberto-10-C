@@ -213,7 +213,7 @@ const app = {
                 this.enviarNotificacionFin(puntajeFinal);
                 this.navegar('result');
             }
-        }, 1500);
+        }, 800);
     },
 
     mostrarToast: function(msg, tipo) {
