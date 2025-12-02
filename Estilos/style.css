@@ -1,0 +1,43 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #f0fdf4;
+    overscroll-behavior-y: none;
+    user-select: none;
+    /* Elimina el color azul al tocar en celular */
+    -webkit-tap-highlight-color: transparent; 
+}
+
+/* Eliminar borde de enfoque globalmente para evitar el "rectángulo fantasma" */
+*:focus {
+    outline: none !important;
+}
+
+/* Animaciones */
+#splash-screen { transition: opacity 0.5s ease-out, visibility 0.5s; }
+.fade-out { opacity: 0; visibility: hidden; }
+
+.view-section { display: none; animation: fadeIn 0.4s ease-in-out; }
+.view-section.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+.btn-app { transition: transform 0.1s, box-shadow 0.2s; }
+.btn-app:active { transform: scale(0.95); }
+
+.grid-visual { display: grid; gap: 2px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+
+/* Estados Examen */
+.option-btn.correct { background-color: #dcfce7 !important; border-color: #16a34a !important; color: #166534 !important; }
+.option-btn.wrong { background-color: #fee2e2 !important; border-color: #dc2626 !important; color: #991b1b !important; animation: shake 0.3s; }
+@keyframes shake { 0%, 100% { transform: translateX(0); } 25%, 75% { transform: translateX(-5px); } 50% { transform: translateX(5px); } }
+
+/* Texto rotativo */
+.fade-text { transition: opacity 0.5s ease-in-out; }
+.opacity-0 { opacity: 0; }
+.opacity-100 { opacity: 1; }
+
+/* FIX ICONOS: Asegura que tengan tamaño aunque tarden en cargar */
+.lucide {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-a

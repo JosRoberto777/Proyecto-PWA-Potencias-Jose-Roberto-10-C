@@ -1,0 +1,55 @@
+[
+  {
+    "texto": "¿Qué significa 5³?",
+    "opciones": ["5 x 3", "5 + 5 + 5", "5 x 5 x 5", "3 x 3 x 3 x 3 x 3"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La base 5 se multiplica 3 veces."
+  },
+  {
+    "texto": "¿Cuál es el valor de 3²?",
+    "opciones": ["6", "9", "5", "12"],
+    "respuestaCorrecta": 1,
+    "explicacion": "3 x 3 = 9"
+  },
+  {
+    "texto": "Todo número elevado a la 1 es igual a...",
+    "opciones": ["0", "1", "El mismo número", "Infinito"],
+    "respuestaCorrecta": 2,
+    "explicacion": "Regla básica."
+  },
+  {
+    "texto": "Calcula 10²",
+    "opciones": ["20", "100", "200", "10"],
+    "respuestaCorrecta": 1,
+    "explicacion": "10 x 10 = 100"
+  },
+  {
+    "texto": "Observa la potencia: <span class='text-4xl font-bold text-blue-600 mx-2'>3<sup>2</sup></span>. ¿Cuál es cuál?",
+    "opciones": [
+      "3 es la Base y 2 es el Exponente",
+      "2 es la Base y 3 es el Exponente",
+      "Ambos números son Base",
+      "El 3 es el resultado"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El número grande (3) es la Base, el pequeño (2) es el Exponente."
+  },
+  {
+    "texto": "En la expresión <span class='font-bold'>6 x 6</span>, ¿cuál sería la base?",
+    "opciones": ["El número 2", "El número 6", "El número 36", "No tiene base"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La base es el número que se repite en la multiplicación."
+  },
+  {
+    "texto": "¿Cómo se escribe en cifras: <b>'Ocho al cuadrado'</b>?",
+    "opciones": ["8²", "2⁸", "82", "8 x 2"],
+    "respuestaCorrecta": 0,
+    "explicacion": "Ocho (base) al cuadrado (exponente 2)."
+  },
+  {
+    "texto": "¿Cómo se lee correctamente esta potencia: <b>4³</b>?",
+    "opciones": ["Cuatro por tres", "Cuatro al cuadrado", "Tres a la cuarta", "Cuatro al cubo"],
+    "respuestaCorrecta": 3,
+    "explicacion": "El exponente 3 siempre se lee 'al cubo'."
+  }
+]
