@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprende Potencias</title>
-    
-    <!-- Tailwind CSS -->
+    <title>PWA Sitio Educativo sobre Potencias</title>
+
+
+    <!-- Talwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Fuentes -->
+    <!-- Talwind -->
+
+    <!-- Fuentes e Iconos de Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <!-- LIBRERÍA ICONOS -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Fuentes e Iconos de Google Font -->
 
-    <!-- ESTILOS (Nombre corregido a singular) -->
+    <!-- Hoja de Estilos -->
     <link rel="stylesheet" href="style.css">
+    <!-- Hoja de Estilos -->
 
-    <!-- PWA -->
+    <!-- Scripts de JS -->
+    <script src="script.js"></script>
+    <!-- Scripts de JS -->
+
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#22c55e">
 </head>
 <body class="bg-green-50 text-gray-800 h-screen overflow-hidden flex flex-col">
 
-    <!-- SPLASH SCREEN -->
+   <!-- SPLASH SCREEN -->
     <div id="splash-screen" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-green-500 text-white">
         <i data-lucide="calculator" class="w-24 h-24 mb-4 animate-bounce"></i>
         <h1 class="text-5xl font-bold mb-2 tracking-wider">Potencias</h1>
@@ -54,6 +59,7 @@
                 <h2 class="text-2xl font-bold mb-2">¡Hola Estudiante!</h2>
                 <p class="opacity-90 mb-4">Aprende sobre potencias y raíz cuadrada.</p>
                 
+                <!-- Tips Rotativos -->
                 <div class="text-xs md:text-sm bg-white/20 p-3 rounded-lg backdrop-blur-sm border border-white/30 text-left relative min-h-[60px] flex items-center">
                     <i data-lucide="lightbulb" class="w-5 h-5 text-yellow-300 mr-3 shrink-0"></i>
                     <p id="tip-text" class="fade-text opacity-100 italic">Cargando tips...</p>
@@ -178,7 +184,7 @@
             </div>
 
             <div id="options-container" class="space-y-3">
-                <!-- Opciones JS -->
+                <!-- Opciones generadas por JS -->
             </div>
         </section>
 
@@ -210,6 +216,6 @@
     </div>
 
     <!-- SCRIPT -->
-    <script src="script.js"></script>
+
 </body>
 </html>
